@@ -1,0 +1,24 @@
+#back{
+background:#333;
+padding-bottom:20px;
+}
+#back a{
+color:#ccc;
+margin-left:15px;
+}
+#adsense1{
+float:left;
+}
+#warning{
+margin-left:auto;
+margin-right:auto;
+width:510px;
+margin-top:15px;
+font-weight:bold;
+border:1px solid #c5d019;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+background:#f5fb97;
+}
+
