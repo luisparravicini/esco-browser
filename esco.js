@@ -28,7 +28,7 @@ Esco.photo_url = function(day) {
 };
 
 Esco.humanize_date = function(day) {
-  return day.getDate() + " de " + this.months[day.getMonth() + 1] + " del " +
+  return day.getDate() + " de " + this.months[day.getMonth()] + " del " +
     day.getFullYear();
 };
 
