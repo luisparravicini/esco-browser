@@ -1,3 +1,9 @@
+/**
+ * Galeria para el reporte de olas de La Esco.
+ * Programado por Luis Parravicini
+ * Mas informacion en http://ktulu.com.ar/blog/
+ */
+
 var base_photo_url = 'http://www.laesco.com.ar/imagenes/pronosticos/';
 
 var Esco = new Object();
@@ -15,14 +21,14 @@ Esco.pad2 = function(value) {
 
 Esco.photo_url = function(day) {
   var aux = (day.getFullYear()+"").substring(2, 4) +
-    this.pad2(day.getMonth()) +
+    this.pad2(day.getMonth() + 1) +
     this.pad2(day.getDate());
 
   return base_photo_url + aux + '.jpg';
 };
 
 Esco.humanize_date = function(day) {
-  return day.getDate() + " de " + this.months[day.getMonth()] + " del " +
+  return day.getDate() + " de " + this.months[day.getMonth() + 1] + " del " +
     day.getFullYear();
 };
 
