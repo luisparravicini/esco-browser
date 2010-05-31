@@ -1,7 +1,7 @@
 /**
  * Galeria para el reporte de olas de La Esco.
  * Programado por Luis Parravicini
- * Mas informacion en http://ktulu.com.ar/blog/
+ * Mas informacion en http://ktulu.com.ar/blog/2010/05/31/todas-las-mananas-de-la-playa/
  */
 
 var base_photo_url = 'http://www.laesco.com.ar/imagenes/pronosticos/';
