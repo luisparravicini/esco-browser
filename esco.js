@@ -24,6 +24,9 @@ Esco.photo_url = function(day) {
     this.pad2(day.getMonth() + 1) +
     this.pad2(day.getDate());
 
+  if (day.getFullYear() >= 2010 && day.getMonth() > 6)
+    aux += '_a';
+
   return base_photo_url + aux + '.jpg';
 };
 
